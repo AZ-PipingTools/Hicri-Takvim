@@ -584,6 +584,14 @@ body{font-family:Georgia,"Times New Roman",serif;color:var(--brown)}
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Hicri Takvim">
+
+<style id="ht-top-ornament-only-fix">
+/* Nur die Heute-Bühne in den bereits freien oberen Bereich ziehen; alle Inhalte bewegen sich gemeinsam. */
+#heute .home-stage{
+  transform:translateY(-32px);
+  margin-bottom:-32px;
+}
+</style>
 </head>
 <body>
 <main class="app">
